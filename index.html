@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <header class="header container flex">
+      <h1>Guess My Number!</h1>
+      <p class="between">Between 1 and 20</p>
+      <div class="number center">?</div>
+    </header>
+    <main class="main">
+      <div class="container grid">
+        <div class="left grid--guess">
+          <input type="number" class="guess center" />
+          <button class="btn check center">Check!</button>
+        </div>
+        <div class="right flex">
+          <div class="right-container">
+            <p class="message">Start guessing...</p>
+            <p class="label-score">Score: <span class="score">20</span></p>
+            <p class="label-highscore">
+              Highscore: <span class="highscore">0</span>
+            </p>
+            <button class="btn again center">Again!</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer container center">
+      <p>
+        Developed by
+        <a href="https://www.zuech.dev" class="footer-link">Anthony Zuech</a> as
+        part of a Udemy JavaScript course
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

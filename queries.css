@@ -1,0 +1,64 @@
+/* 865 pixels */
+@media (max-width: 54em) {
+  h1 {
+    font-size: 7rem;
+  }
+}
+
+/* 688 pixels */
+@media (max-width: 43em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .header,
+  .main,
+  .footer {
+    padding: 4.5rem 2rem;
+  }
+
+  h1 {
+    font-size: 5.4rem;
+  }
+
+  .message,
+  .label-score,
+  .label-highscore {
+    font-size: 2.4rem;
+  }
+
+  footer p {
+    font-size: 1.6rem;
+  }
+}
+
+/* 480 pixels */
+@media (max-width: 30em) {
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    font-size: 1.8rem;
+  }
+
+  h1 {
+    font-size: 4.4rem;
+  }
+
+  .message,
+  .label-score,
+  .label-highscore {
+    font-size: 2rem;
+  }
+
+  .label-score,
+  .label-highscore {
+    width: 15rem;
+  }
+
+  footer p {
+    text-align: center;
+    width: 75%;
+  }
+}
